@@ -13,3 +13,4 @@
 # Additional features
 
 * Composer (latest edition) is available in the docker container
+* Git
