@@ -1,3 +1,5 @@
+Built with Laravel (5.x, 6.x) in mind
+
 # Base package
 
 * PHP 7.4.1-FPM
@@ -6,8 +8,16 @@
 
 * INTL
 * PDO
+* BCMath
+* Sodium
+* CType
+* JSON
+* OpenSSL
+* TTokenizer
+* XML
+* ZIP
 * PDO_MySQL (MySQL support)
-* PDO_PgSQL (Postgresql Support)
+* PDO_PgSQL (PostgreSQL Support)
 * XDebug
 
 # Additional features
