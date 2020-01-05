@@ -22,5 +22,5 @@ Built with Laravel (5.x, 6.x) in mind
 
 # Additional features
 
-* Composer (latest edition) is available in the docker container
+* Composer (latest edition) is available in the docker container, with hirak/prestissimo installed
 * Git
