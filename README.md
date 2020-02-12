@@ -2,7 +2,7 @@ Built with Laravel (5.x, 6.x) in mind
 
 # Base package
 
-* PHP 7.4.1-FPM
+* PHP 7.4.2-FPM
 
 # PHP Modules included
 
