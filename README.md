@@ -9,18 +9,20 @@ Built with Laravel in mind
 * INTL
 * PDO
 * BCMath
+* GMP
 * Sodium
 * CType
 * JSON
 * OpenSSL
-* TTokenizer
+* Tokenizer
 * XML
 * ZIP
-* PDO_MySQL (MySQL support)
-* PDO_PgSQL (PostgreSQL Support)
+* PDO_MySQL
+* PDO_PGSQL
+* Redis
 * XDebug
 
 # Additional features
 
-* Composer (latest edition) is available in the docker container, with hirak/prestissimo installed
+* Composer
 * Git
