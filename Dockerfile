@@ -1,4 +1,4 @@
-FROM php:7.4.3-fpm
+FROM php:7.4.5-fpm
 
 RUN apt-get update \
         && apt-get install libicu-dev libpq-dev libzip-dev git unzip zip libonig-dev -y; \
