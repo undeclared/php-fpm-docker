@@ -15,3 +15,5 @@ RUN apt-get update \
         && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*;
         
 COPY --from=composer /usr/bin/composer /usr/bin/composer
+COPY --from=node:12.19-alpine /usr/local/bin/node /usr/local/bin/node
+COPY --from=node:12.19-alpine /usr/local/bin/npm /usr/local/bin/npm
