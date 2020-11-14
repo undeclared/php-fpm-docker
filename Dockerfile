@@ -10,7 +10,7 @@ RUN apt-get update \
     docker-php-ext-install pdo pdo_mysql pdo_pgsql; \
     docker-php-ext-enable xdebug; \
     docker-php-ext-enable redis; \
-    docker-ph-ext-enable zip; \
+    docker-php-ext-enable zip; \
     apt-get clean \
         && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*;
         
