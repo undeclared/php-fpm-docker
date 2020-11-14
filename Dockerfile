@@ -15,4 +15,3 @@ RUN apt-get update \
         && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*;
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
-RUN /usr/bin/composer global require hirak/prestissimo
