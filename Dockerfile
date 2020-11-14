@@ -1,7 +1,7 @@
 FROM php:7.4-fpm
 
 RUN apt-get update \
-        && apt-get install libicu-dev libpq-dev libzip-dev git unzip zip libonig-dev libgmp-dev -y; \
+        && apt-get install libicu-dev libpq-dev libzip-dev git unzip zip libonig-dev libgmp-dev wget -y; \
     pecl install xdebug; \
     pecl install redis; \
     docker-php-ext-install intl gmp; \
